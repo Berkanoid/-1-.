@@ -34,7 +34,8 @@ namespace DZ_01
             for (int i = 0; i < n; i++)
                 for (int j = 0; j < n; j++)
                     sum += x[i] * G[i, j] * x[j];
-            Console.WriteLine($"Длина вектора: {Math.Sqrt(sum):F4}");
+            Console.WriteLine($"Длина вектора: {Math.Sqrt(sum)}");
         }
     }
 }
+
